@@ -114,9 +114,7 @@
     color: var(--text-secondary);
     margin-bottom: 2rem;
     line-height: 1.7;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    white-space: nowrap;
 }
 
 .about-details {
@@ -214,7 +212,8 @@
     }
     
     .intro-text {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
+        white-space: normal;
     }
 }
 
